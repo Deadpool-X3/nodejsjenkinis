@@ -15,7 +15,7 @@ const server=http.createServer((req,res)=>
             data=fs.readFileSync("pages/home.html")
             res.end(data.toString())
         }
-        else if(req.url=="/about")
+        else if(req.url=="/about1")
         {
            
             res.statusCode=200
