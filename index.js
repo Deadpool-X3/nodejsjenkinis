@@ -23,7 +23,7 @@ const server=http.createServer((req,res)=>
             data=fs.readFileSync("pages/about.html")
             res.end(data.toString())
         }
-        else if(req.url=="/contact")
+        else if(req.url=="/contact1")
         {
             res.statusCode=200
             res.setHeader('Content-Type', 'text/html')
